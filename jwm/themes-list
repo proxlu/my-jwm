@@ -1,0 +1,24 @@
+<JWM>
+	<Menu label="Themes" icon="preferences-desktop-theme">
+		<Program label="black" confirm="false">jwm-set-theme --restart "black"</Program>
+		<Program label="BlueDay" confirm="false">jwm-set-theme --restart "BlueDay"</Program>
+		<Program label="brown" confirm="false">jwm-set-theme --restart "brown"</Program>
+		<Program label="cappuccino" confirm="false">jwm-set-theme --restart "cappuccino"</Program>
+		<Program label="clearlooks" confirm="false">jwm-set-theme --restart "clearlooks"</Program>
+		<Program label="coffee_cream" confirm="false">jwm-set-theme --restart "coffee_cream"</Program>
+		<Program label="coper" confirm="false">jwm-set-theme --restart "coper"</Program>
+		<Program label="default" confirm="false">jwm-set-theme --restart "default"</Program>
+		<Program label="gold" confirm="false">jwm-set-theme --restart "gold"</Program>
+		<Program label="green" confirm="false">jwm-set-theme --restart "green"</Program>
+		<Program label="ice" confirm="false">jwm-set-theme --restart "ice"</Program>
+		<Program label="military" confirm="false">jwm-set-theme --restart "military"</Program>
+		<Program label="pastel" confirm="false">jwm-set-theme --restart "pastel"</Program>
+		<Program label="PrettyPink" confirm="false">jwm-set-theme --restart "PrettyPink"</Program>
+		<Program label="red" confirm="false">jwm-set-theme --restart "red"</Program>
+		<Program label="shades_of_grey" confirm="false">jwm-set-theme --restart "shades_of_grey"</Program>
+		<Program label="SunnyDay" confirm="false">jwm-set-theme --restart "SunnyDay"</Program>
+		<Program label="white" confirm="false">jwm-set-theme --restart "white"</Program>
+		<Separator/>
+		<Program label="Update themes list" confirm="false">update-jwm-themes.sh</Program>
+	</Menu>
+</JWM>

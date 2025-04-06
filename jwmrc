@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+<!-- Initialize the applications used in conjunction with JWM -->
+<Include>$HOME/.jwm/startup</Include>
+
+<!-- The root menu, if this is undefined you will not get a menu. -->
+<!-- Additional RootMenu attributes: onroot, labeled, label -->
+<RootMenu height="20">
+
+   <!-- The backbone antiX menu -->
+   <Include>$HOME/.jwm/menu</Include>
+
+   <Separator/>
+   <Menu label="Sair" icon="/usr/share/icons/papirus-antix/48x48/apps/application-exit.png">
+     <Program label="Atualizar" icon="/usr/share/icons/papirus-antix/48x48/apps/systemback.png">jwm -restart</Program>
+     <Program label="Reiniciar" icon="/usr/share/icons/papirus-antix/48x48/apps/system-restart.png">echo "60" > /home/.x;gksu reboot</Program>
+     <Program label="Desligar" icon="/usr/share/icons/papirus-antix/48x48/apps/system-shutdown.png">echo "60" > /home/.x;gksu halt</Program>
+   </Menu>
+</RootMenu>
+
+<Include>$HOME/.jwm/keys</Include>
+<Include>$HOME/.jwm/theme</Include>
+<Include>$HOME/.jwm/tray</Include>
+<Include>$HOME/.jwm/preferences</Include>
+
+    <!-- Groups -->
+	<Group>
+		<Name>chromium</Name>
+		<Option>layer:below</Option>
+	</Group>
+	<Group>
+		<Name>roxterm</Name>
+		<Option>desktop:2</Option>
+		<Option>layer:above</Option>
+	</Group>
+	<Group>
+		<Option>desktop:1</Option>
+	</Group>
+	<Group>
+		<Name>gexec</Name>
+		<Option>title:Abrir</Option>
+		<Option>icon:/usr/share/icons/papirus-antix/48x48/apps/gnome-run.png</Option>
+	</Group>
+	<Group>
+		<Name></Name>
+		<Option></Option>
+	</Group>
+
+</JWM>
+	The desktop on which windows in this group will be started.
+drag	Do not pass mouse events to the window. Instead, use the mouse to move/resize the window.
+fixed	Fix the windows in this group to the current desktop. This will cause the desktop to change when the window is raised rather than the default behavior of moving the window to the current desktop.
+height:n	Set th

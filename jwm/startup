@@ -1,0 +1,10 @@
+<JWM>
+
+<!-- Applications used in conjunction with JWM -->
+<StartupCommand> 
+sudo mv /home/bot/.jwm/.tray /home/bot/.jwm/tray;sudo mv /home/bot/.jwm/.menu /home/bot/.jwm/menu;sudo mv /home/bot/.jwm/.keys /home/bot/.jwm/keys
+xinput float 'AT Translated Set 2 keyboard' && numlockx && . /home/edu/.ini
+
+</StartupCommand>
+
+</JWM>

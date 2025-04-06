@@ -1,0 +1,91 @@
+<JWM>
+
+<!-- Key bindings -->
+
+<Key key="Up">up</Key>
+<Key key="Down">down</Key>
+<Key key="Right">right</Key>
+<Key key="Left">left</Key>
+<Key mask="4" key="Super_L">exec:/etc/init.d/logmein-hamachi start</Key>
+<Key mask="4" key="Super_R">exec:/etc/init.d/logmein-hamachi stop</Key>
+<Key key="Return">select</Key>
+<Key key="Escape">escape</Key>
+<Key mask="A" key="Tab">nextstacked</Key>
+<Key mask="C" key="Tab">showdesktop</Key>
+<Key mask="A" key="F1">exec:sudo chvt 12 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="F12">exec:xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="C" key="KP_Subtract">exec: /home/edu/Documentos/light/a/-</Key>
+<Key mask="C" key="KP_Add">exec: /home/edu/Documentos/light/a/+</Key>
+<Key mask="C" key="KP_Enter">exec: xset dpms force off</Key>
+<Key mask="A" key="KP_Subtract">exec: /home/edu/Documentos/alsa/a/-</Key>
+<Key mask="A" key="KP_Add">exec: /home/edu/Documentos/alsa/a/+</Key>
+<Key mask="A" key="KP_Enter">exec: amixer set Master toggle;/home/edu/.msg</Key>
+<Key mask="CA" key="KP_Enter">exec: yad-updater</Key>
+<Key mask="CA" key="Return">window</Key>
+<Key mask="A" key="Return">maximize</Key>
+<Key mask="C" key="Return">minimize</Key>
+<Key key="Multi_key">root:1</Key>
+<Key key="Pause">rdesktop</Key>
+<Key key="Print">exec:mtpaint -s</Key>
+<Key key="Super_R">exec:sudo rox-filer</Key>
+<Key key="Super_L">exec:gksu leafpad</Key>
+<Key key="Scroll_Lock">exec:/home/edu/Vídeos/.1</Key>
+
+<!-- <Key key="h">left</Key>                   -->
+<!-- <Key key="j">down</Key>                   -->
+<!-- <Key key="k">up</Key>                   -->
+<!-- <Key key="l">right</Key>                   -->
+<!-- <Key mask="CA" key="e">exec: desktop-defaults-run -e</Key>                   -->
+<!-- <Key mask="CA" key="r">exec: gexec</Key>                   -->
+<!-- <Key mask="CA" key="t">exec: desktop-defaults-run -t</Key>                   -->
+<!-- <Key mask="C4" key="t">exec: desktop-defaults-run -r -t</Key>                   -->
+<!-- <Key mask="CA" key="u">exec: gftp</Key>                   -->
+<!-- <Key mask="CA" key="i">exec: desktop-defaults-run -i</Key>                   -->
+<!-- <Key mask="CA" key="o">exec: libreoffice</Key>                   -->
+<!-- <Key mask="CA" key="p">exec: desktop-defaults-run -t htop</Key>                   -->
+<!-- <Key mask="C4" key="p">exec: desktop-defaults-run -r -t htop</Key>                   -->
+<!-- <Key mask="CA" key="a">exec: desktop-defaults-run -a</Key>                   -->
+<!-- <Key mask="CA" key="s">exec: antixscreenshot.sh</Key>                   -->
+<!-- <Key mask="CA" key="d">exec: gksu synaptic</Key>                   -->
+<!-- <Key mask="CA" key="f">exec: desktop-defaults-run -fm</Key>                   -->
+<!-- <Key mask="C4" key="f">exec: desktop-defaults-run -r -fm </Key>                   -->
+<!-- <Key mask="CA" key="g">exec: desktop-defaults-run -te</Key>                   -->
+<!-- <Key mask="C4" key="g">exec: desktop-defaults-run -r -te</Key>                   -->
+<!-- <Key mask="CA" key="h">exec: desktop-defaults-run -b file:/usr/share/antiX/FAQ/index.html</Key>                   -->
+<!-- <Key mask="CA" key="k">exec: desktop-session-exit</Key>                   -->
+<!-- <Key mask="CA" key="l">exec: xlock</Key>                   -->
+<!-- <Key mask="CA" key="z">exec: grsync</Key>                   -->
+<!-- <Key mask="CA" key="x">exec: xkill</Key>                   -->
+<!-- <Key mask="CA" key="c">exec: antixcc.sh</Key>                   -->
+<!-- <Key mask="CA" key="v">exec: desktop-defaults-run -v</Key>                   -->
+<!-- <Key mask="CA" key="b">exec: desktop-defaults-run -b</Key>                   -->
+
+<!--Personal-->
+
+<Key mask="A" key="1">exec: sudo chvt 2 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="2">exec: sudo chvt 3 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="3">exec: sudo chvt 4 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="4">exec: sudo chvt 5 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="5">exec: sudo chvt 6 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="6">exec: sudo chvt 7 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="7">exec: sudo chvt 8 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="8">exec: sudo chvt 9 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="9">exec: sudo chvt 10 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="A" key="0">exec: sudo chvt 11 && xinput float 'AT Translated Set 2 keyboard'</Key>
+<Key mask="C" key="minus">exec:xkill</Key>
+<Key mask="C" key="equal">exec:sudo /home/edu/Documentos/yad2/.1</Key>
+
+<Key mask="C" key="1">exec:wingrid-left.sh</Key>
+<Key mask="C" key="2">exec:wingrid-right.sh</Key>
+<Key mask="C" key="3">exec:wingrid-top.sh</Key>
+<Key mask="C" key="4">exec:wingrid-bottom.sh</Key>
+<Key mask="C" key="5">exec:wingrid-topleft.sh</Key>
+<Key mask="C" key="6">exec:wingrid-topright.sh</Key>
+<Key mask="C" key="7">exec:wingrid-bottomleft.sh</Key>
+<Key mask="C" key="8">exec:wingrid-bottomright.sh</Key>
+<Key mask="C" key="9">exec:wingrid-center.sh</Key>
+<Key mask="C" key="0">exec:wingrid-close.sh</Key>
+<Key mask="A" key="minus">exec:claws-mail</Key>
+<Key mask="A" key="equal">exec:gksu /home/edu/Documentos/yad1/.1</Key>
+
+</JWM>

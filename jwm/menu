@@ -1,0 +1,82 @@
+<JWM>
+    <Program label="Terminal" icon="/usr/share/icons/papirus-antix/48x48/apps/terminal.png">desktop-defaults-run -t</Program>
+    <Program label="Gerenciador de Arquivos" icon="/usr/share/icons/papirus-antix/48x48/apps/file-manager.png">desktop-defaults-run -fm</Program>
+    <Separator/>
+    <Menu label="Mudar Localização" icon="/home/edu/Documentos/ovpn/openvpn.png">
+        <Menu label="Alemanha" icon="/home/edu/Documentos/ovpn/alemanha/alemanha.png">
+    <Program label="UDP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/alemanha/udp/vpnbook-de4-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/alemanha/udp/vpnbook-de4-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Separator/>
+    <Program label="TCP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/alemanha/tcp/vpnbook-de4-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/alemanha/tcp/vpnbook-de4-tcp443.ovpn && sudo pkill openvpn</Program>
+        </Menu>
+        <Menu label="Canadá" icon="/home/edu/Documentos/ovpn/canada/canada.png">
+    <Program label="UDP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/udp/vpnbook-ca198-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/udp/vpnbook-ca198-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/udp/vpnbook-ca222-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 4">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/udp/vpnbook-ca222-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Separator/>
+    <Program label="TCP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/tcp/vpnbook-ca198-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/tcp/vpnbook-ca198-tcp443.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/canada/tcp/vpnbook-ca222-tcp80.ovpn && sudo pkill openvpn</Program>
+        </Menu>
+        <Menu label="Estados Unidos" icon="/home/edu/Documentos/ovpn/estadosunidos/estadosunidos.png">
+    <Program label="UDP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/udp/vpnbook-us1-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/udp/vpnbook-us1-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/udp/vpnbook-us2-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 4">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/udp/vpnbook-us2-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Separator/>
+    <Program label="TCP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/tcp/vpnbook-us1-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/tcp/vpnbook-us1-tcp443.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/tcp/vpnbook-us2-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 4">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/estadosunidos/tcp/vpnbook-us2-tcp443.ovpn && sudo pkill openvpn</Program>
+        </Menu>
+        <Menu label="França" icon="/home/edu/Documentos/ovpn/franca/franca.png">
+    <Program label="UDP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/udp/vpnbook-fr1-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/udp/vpnbook-fr1-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/udp/vpnbook-fr8-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 4">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/udp/vpnbook-fr8-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Separator/>
+    <Program label="TCP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/tcp/vpnbook-fr1-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/tcp/vpnbook-fr8-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 3">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/franca/tcp/vpnbook-fr8-tcp443.ovpn && sudo pkill openvpn</Program>
+        </Menu>
+        <Menu label="Polônia" icon="/home/edu/Documentos/ovpn/polonia/polonia.png">
+    <Program label="UDP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/polonia/udp/vpnbook-pl226-udp53.ovpn && sudo pkill openvpn</Program>
+    <Program label="UDP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/polonia/udp/vpnbook-pl226-udp25000.ovpn && sudo pkill openvpn</Program>
+    <Separator/>
+    <Program label="TCP 1">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/polonia/tcp/vpnbook-pl226-tcp80.ovpn && sudo pkill openvpn</Program>
+    <Program label="TCP 2">sudo pkill openvpn ; sudo rxvt -e openvpn /home/edu/Documentos/ovpn/polonia/tcp/vpnbook-pl226-tcp443.ovpn && sudo pkill openvpn</Program>
+        </Menu>
+    </Menu>
+    <Program label="Navegador de Internet" icon="/usr/share/icons/papirus-antix/48x48/apps/web-browser.png">desktop-defaults-run -b</Program>
+    <Program label="Editor de Texto" icon="/usr/share/icons/papirus-antix/48x48/apps/text-editor.png">desktop-defaults-run -te</Program>
+    <Separator/>
+    <Menu label="Aplicativos" icon="/usr/share/icons/papirus-antix/48x48/apps/applications.png">
+        <Include>$HOME/.jwm/menu-applications</Include>
+    <Separator/>
+        <Program label="Atualizar" icon="/usr/share/icons/papirus-antix/48x48/categories/update-manager.png">sudo desktop-menu --write-out-global</Program>
+    </Menu>
+    <Program label="Buscar Aplicativo" icon="/usr/share/icons/papirus-antix/48x48/apps/gnome-searchtool.png">/usr/local/bin/app-select</Program>
+    <Program label="Calculadora" icon="/usr/share/icons/papirus-antix/48x48/apps/galculator.png">galculator</Program>
+    <Separator/>
+    <Menu label="Trocar de Sessão" icon="/usr/share/icons/papirus-antix/48x48/apps/xfce4-display.png">
+        <Program label="Bot 1">sudo chvt 2 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 2">sudo chvt 3 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 3">sudo chvt 4 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 4">sudo chvt 5 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 5">sudo chvt 6 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 6">sudo chvt 7 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 7">sudo chvt 8 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 8">sudo chvt 9 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 9">sudo chvt 10 && xinput float 'AT Translated Set 2 keyboard'</Program>
+        <Program label="Bot 0">sudo chvt 11 && xinput float 'AT Translated Set 2 keyboard'</Program>
+    <Separator/>
+        <Program label="Voltar">sudo chvt 12 && xinput float 'AT Translated Set 2 keyboard'</Program>
+    </Menu>
+    <Program label="Configurações Nvidia" icon="/usr/share/icons/papirus-antix/48x48/apps/nvidia-settings.png">optirun -b none nvidia-settings -c :12</Program>
+    <Program label="Central de Controle" icon="/usr/share/icons/papirus-antix/48x48/apps/control-center2.png">antixcc.sh</Program>
+    <Separator/>
+    <Program label="Fechar Tarefas" icon="/usr/share/icons/papirus-antix/48x48/apps/applications-utilities.png">lxtask</Program>
+    <Program label="Abrir" icon="/usr/share/icons/papirus-antix/48x48/apps/gnome-run.png">gexec</Program>
+</JWM>
